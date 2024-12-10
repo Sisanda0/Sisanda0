@@ -4,7 +4,7 @@ const Testimonials = ()=>{
     return (
         <div className="Testimonials">
             <div className="left-t">
-               <span className="stroke-text">Testimonials</span>
+               <span >Testimonials</span>
                <span>What they </span>
                <span className="stroke-text">say about us</span> 
             </div>
