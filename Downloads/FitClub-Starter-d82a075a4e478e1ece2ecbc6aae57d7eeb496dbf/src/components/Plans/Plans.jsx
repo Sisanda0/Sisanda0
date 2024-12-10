@@ -15,7 +15,7 @@ const Plans =()=>{
             {/* plans card */}
             <div className="plans">
                 {plansData.map((plan,i)=>(
-                    <div clasName="plan" key={i}>
+                    <div className="plan" key={i}>
                         {plan.icon}
                         <span>{plan.name}</span>
                         <span>$ {plan.price}</span>
