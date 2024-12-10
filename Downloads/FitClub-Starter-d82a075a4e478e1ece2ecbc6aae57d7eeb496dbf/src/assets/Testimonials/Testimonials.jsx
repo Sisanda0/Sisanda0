@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Testimonials.css';
 import {testimonialsData} from "../../data/testimonialsData";
 const Testimonials = ()=>{
+
+    const [selected, setSelected]=useState(0);
+    const tLength= testimonialsData.length;
+
     return (
         <div className="Testimonials">
             <div className="left-t">
@@ -9,7 +13,13 @@ const Testimonials = ()=>{
                <span>What they </span>
                <span className="stroke-text">say about us</span> 
                <span>
-                   {testimonialsData[0].review} 
+                   {testimonialsData[selected].review} 
+               </span>
+               <span>
+                  <span style={{color: 'var(--orange)'}}>
+                    {testimonialsData[selected].name}
+                  </span>{" "}
+                  -{testimonialsData[selected].status}
                </span>
             </div>
             <div className="right-t"></div>

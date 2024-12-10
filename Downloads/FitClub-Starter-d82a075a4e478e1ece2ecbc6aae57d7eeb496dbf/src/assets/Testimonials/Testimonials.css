@@ -1,4 +1,5 @@
 .Testimonials{
+
     display: flex;
     gap:1rem;
     padding: 0 2rem;
@@ -6,6 +7,7 @@
 }
 
 .left-t{
+
     display:flex;
     flex:1 1;
     gap:2rem;
@@ -15,11 +17,25 @@
 }
 
 .left-t>:nth-child(1){
+
     color:rgb(214, 109, 4);
     font-weight:bold;
 }
 .left-t>:nth-child(2),
 .left-t>:nth-child(3){
+
     font-weight:bold;
     font-size:3rem;
+}
+
+.left-t>:nth-child(4){
+   text-transform: none;
+   text-align: justify; 
+   letter-spacing: 2px;
+   line-height: 40px;
+}
+
+.right-t{
+    flex: 1;
+    position: relative;
 }
