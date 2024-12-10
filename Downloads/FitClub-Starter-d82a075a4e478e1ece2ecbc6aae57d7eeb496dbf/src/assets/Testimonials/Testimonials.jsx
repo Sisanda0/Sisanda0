@@ -22,7 +22,9 @@ const Testimonials = ()=>{
                   -{testimonialsData[selected].status}
                </span>
             </div>
-            <div className="right-t"></div>
+            <div className="right-t">
+                <img src={testimonialsData[selected].image} alt =""/>
+            </div>
 
 
         </div>
