@@ -5,6 +5,7 @@ const Join =()=>{
 
         <div className="Join" id = "join-us">
             <div className="left-j">
+                <hr />
                 <div>
                     <span className="stroke-text">READY TO</span>
                     <span> LEVEL UP</span>
@@ -14,7 +15,12 @@ const Join =()=>{
                     <span className="stroke-text"> WITH US?</span>
                 </div>
             </div>
-            <div className="right-j"></div>
+            <div className="right-j">
+
+                <form action="" className="email-container">
+                    <input type="email" name="user_email" placeholder="Enter your Email address"/>
+                </form>
+            </div>
         </div>
     
     )
