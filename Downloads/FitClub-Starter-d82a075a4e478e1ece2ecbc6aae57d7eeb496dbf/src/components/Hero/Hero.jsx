@@ -6,10 +6,13 @@ import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 
+
 const Hero = () => {
 
     return (
       <div className="hero">
+        
+        <div className="blur hero-blur"></div>
         <div className="left-h">
             <Header/>
 {/* the best ad */}            
