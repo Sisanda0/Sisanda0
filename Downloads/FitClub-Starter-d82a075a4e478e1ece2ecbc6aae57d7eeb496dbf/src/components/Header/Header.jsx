@@ -44,11 +44,11 @@ const Header = () => {
                 <li >
                     <Link
                     onClick={()=>setMenuOpened(false)}
-                    to ='programs'
+                    to ='features'
                     spy={true}
                     smooth={true}
                     >
-                        Programs
+                        Features
                     </Link>
                 </li>
 
@@ -77,11 +77,11 @@ const Header = () => {
                 <li>
                     <Link
                     onClick={()=>setMenuOpened(false)}
-                    to ='testimonials'
+                    to ='founding team'
                     span={true}
                     smooth={true}
                     >
-                    Testimonials
+                    Founding Teams
                     </Link>
                 </li>
             </ul>

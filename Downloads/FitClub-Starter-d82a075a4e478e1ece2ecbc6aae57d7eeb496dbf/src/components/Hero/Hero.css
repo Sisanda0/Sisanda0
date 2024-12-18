@@ -36,7 +36,7 @@
 
 .the-best-ad>div{
     position:absolute;
-    background-color: var(--orange);
+    background: blue;
     width: 5.4rem;
     height: 80%;
     left: 8px;
@@ -81,7 +81,7 @@
 }
 
 .figures>div>span:nth-of-type(2){
-    color: var(--orange);
+    color:#7f8487;
     text-transform: uppercase;
 }
 
@@ -93,20 +93,25 @@
 
 .hero-buttons>:nth-child(1){
     color:white;
-    background-color: var(--orange);
+    background: rgb(187, 64, 84);
     width:8rem;
+    height:2rem;
 }
+
 
 .hero-buttons>:nth-child(2){
     color:white;
     background-color: transparent;
     width:8rem;
-    border: 2px solid var(--orange);
+    height:2.25rem;
+    border: 2px solid  rgb(187, 64, 84);
+
 }
 
 .right-h>.btn{
     position: absolute;
-    right: 3rem;top:2rem;color:black
+    right: 3rem;top:2rem;color:black;
+    height:2.5rem;
 }
 
 .heart-rate{

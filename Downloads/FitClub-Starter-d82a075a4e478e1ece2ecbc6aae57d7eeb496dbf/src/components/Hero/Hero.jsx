@@ -27,22 +27,23 @@ const Hero = () => {
                 transition = {{...transition, type:'tween'}}
                 
                 ></motion.div> 
-                <span>the best fitness club in the town</span>
+                <span> THE BEST TRACKING TECHNOLOGY FOR YOUR WORKOUT</span>
             </div>
 
             {/* Hero Heading*/}
             <div className="hero-text">
                 <div>
-                    <span className='stroke-text'>Shape </span>
-                    <span>Your</span>
+                    <span className='stroke-text'>CALIVISON</span>
+                    <span>- MAX</span>
                 </div>
                 <div>
-                 <span>Ideal body</span>
+                 <span>PERFORMANCE</span>
                 </div>
                 <div>
                     <span>
-                      In here we will help you to shape and build your ideal body and 
-                      live up your life to fullest 
+                    Effectiveness? Injury Prevention? Tracking? In here we will help you enhance the your training 🏋 and ensure correct form of workouts.
+
+With state-of-the-art tracking technology using AI 🤖, your Personal AI Coach Assistant is the only training partner you need.
                     </span>
                 </div>
             </div>
@@ -77,7 +78,7 @@ const Hero = () => {
 
         </div>
         <div className="right-h">
-          <button className= "btn">Join Now</button> 
+          <button className= "btn">Login/Signup</button> 
          
           <motion.div 
           initial={{right: "-1rem"}}
