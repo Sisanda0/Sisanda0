@@ -7,7 +7,7 @@ import {Link } from "react-scroll";
 
 const Header = () => {
 
-    const mobile=window.innerWidth<-768? true:false;
+    const mobile=window.innerWidth<=768? true:false;
     const[menuOpened,setMenuOpened]=useState(false);
     return (
         <div className= "header">
