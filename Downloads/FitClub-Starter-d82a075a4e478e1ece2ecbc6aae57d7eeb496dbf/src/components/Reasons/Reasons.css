@@ -74,6 +74,7 @@
 .details-r>div>img{
     width:2rem;
     height:2rem;
+    filter: hue-rotate(270deg); /* Makes the tick icon purple */
 }
 
 .partners>img{

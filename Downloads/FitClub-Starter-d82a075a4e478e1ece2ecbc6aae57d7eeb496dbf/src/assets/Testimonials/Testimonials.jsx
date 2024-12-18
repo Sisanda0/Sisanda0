@@ -13,9 +13,9 @@ const Testimonials = ()=>{
     return (
         <div className="testimonials">
             <div className="left-t">
-               <span >Testimonials</span>
-               <span>What they </span>
-               <span className="stroke-text">say about us</span> 
+               <span >Founding team</span>
+               <span className = "stroke-text">The brains</span>
+               <span >behind calivision</span> 
                <motion.span
                     key={selected}
                     initial={{opacity:0, x:-100}}

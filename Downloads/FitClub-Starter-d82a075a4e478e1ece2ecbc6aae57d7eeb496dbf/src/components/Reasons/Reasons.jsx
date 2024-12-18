@@ -29,19 +29,19 @@ const Reasons = ()=>{
                  <div className='details-r'>
                  <div>
                     <img src={tick} alt=""></img>
-                    <span>OVER 140+ EXPERT COACHES</span>
+                    <span>Made by AI personalities and Calisthenic experts</span>
                 </div>
                  <div>
                     <img src={tick} alt="" />
-                    <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
+                    <span>Track form correctness readiness</span>
                 </div>
                  <div>
                     <img src={tick} alt="" />
-                    <span>FREE PROGRAM FOR MEMBER</span>
+                    <span>analyze personalised workout data</span>
                 </div>
                  <div>
                     <img src={tick} alt="" />
-                    <span>REALIABLE PARTNERS</span>
+                    <span>have your interactive personal AI coach Assistant</span>
                 </div>
             </div>
             <span 

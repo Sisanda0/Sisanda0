@@ -18,7 +18,7 @@
 
 .left-t>:nth-child(1){
 
-    color:rgb(214, 109, 4);
+    color:rgb(23, 2, 69);
     font-weight:bold;
 }
 .left-t>:nth-child(2),
@@ -51,7 +51,7 @@
 .right-t>:nth-child(1){
     position :absolute;
     width: 17rem; height :20rem;
-    border: 2px solid orange;
+    border: 2px solid rgb(232, 124, 46);
     background-color: transparent;
     right: 9rem;
     top: 0,9rem;
