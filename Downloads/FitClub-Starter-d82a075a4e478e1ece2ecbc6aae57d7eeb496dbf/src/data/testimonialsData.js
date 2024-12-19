@@ -1,5 +1,5 @@
-import image1 from "../assets/t-image1.png";
-import image2 from "../assets/t-image2.jpg";
+import image1 from "../assets/t-image4.jpg";
+import image2 from "../assets/image5.jpg";
 
 export const testimonialsData = [
   {

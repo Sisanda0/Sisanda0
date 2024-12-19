@@ -1,9 +1,10 @@
 import React from 'react'
 import './Footer.css'
-import  Github from "../../assets/github.png";
+import  Github from "../../assets/facebook.png";
 import Instagram from  "../../assets/instagram.png";
 import LinkedIn from "../../assets/linkedin.png";
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/logo3_note.png";
+
 
 const Footer =() =>{
     return (
