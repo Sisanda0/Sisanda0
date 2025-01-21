@@ -8,7 +8,7 @@ import ResetPassword from './pages/ResetPassword';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-[#F17C58] via-[#E94584] to-[#24AADB]">
+      <div className="min-h-screen bg-gradient-to-br from-yellow-600  via-orange-700 via-pink-400  via-pink-800 via-purple-400 to-blue-600">
         <Routes>
           <Route path="/" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
